@@ -103,6 +103,8 @@
   display: block;
   overflow-x: auto;
   padding: 16px;
+  font-family: var(--code-font);
+  font-size: 1rem;
 }
 
 .content div[data-filename]::before {
@@ -110,7 +112,7 @@
   background-color: var(--color-bg-sub);
   content: attr(data-filename);
   margin: 1em 0 0;
-  font-family: menlo, inconsolata, monospace;
+  font-family: var(--code-font);
   font-size: 0.8rem;
   padding: 4px 16px;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
