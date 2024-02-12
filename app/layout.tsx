@@ -11,12 +11,12 @@ const noto_sans_jp = Noto_Sans_JP({ subsets: ['latin'] });
 const source_code_pro = Source_Code_Pro({ subsets: ['latin'], variable: '--code-font' });
 
 export const metadata = {
-  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:3000'),
-  title: 'Simple Blog',
-  description: 'A simple blog presented by microCMS',
+  metadataBase: new URL(process.env.BASE_URL || 'http://localhost:14555'),
+  title: "nafell's devlog",
+  description: 'Development blog owned by nafell.',
   openGraph: {
-    title: 'Simple Blog',
-    description: 'A simple blog presented by microCMS',
+    title: "nafell's devlog",
+    description: 'Development blog owned by nafell.',
     images: '/ogp.png',
   },
   alternates: {
