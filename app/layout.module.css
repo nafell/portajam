@@ -1,6 +1,9 @@
 .main {
-  width: 720px;
+  width: 960px;
   margin: 0 auto;
+  padding: 50px 60px 0 60px;
+  background-color: var(--color-bg-main);
+  border-radius: var(--border-radius-main);
 }
 
 @media (max-width: 640px) {

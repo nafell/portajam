@@ -25,6 +25,22 @@ export const formatRichText = (richText: string) => {
     }
   };
   $('pre code').each((_, elm) => {
+    const presumably_filename_div = elm.parent.parent;
+
+    // Checks if this code block has a filename attatched.
+    // Has filename: topleft radius = 0
+    // No filename:  all radius     = --border-radius-code
+    if (presumably_filename_div.type == 'tag' && presumably_filename_div.name == 'div') {
+      if ('data-filename' in presumably_filename_div.attribs) {
+        if (elm.type == 'tag') {
+          $(elm).css(
+            'border-radius',
+            '0 var(--border-radius-code) var(--border-radius-code) var(--border-radius-code)',
+          );
+        }
+      }
+    }
+
     const lang = $(elm).attr('class');
     const res = highlight($(elm).text(), lang);
     $(elm).html(res.value);

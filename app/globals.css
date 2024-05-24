@@ -2,16 +2,22 @@
   /* --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono',
     'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono',
     'Courier New', monospace; */
-  --color-text-main: #333;
-  --color-text-sub: #999;
-  --color-bg-main: #fff;
+  --color-text-main: #222;
+  --color-text-sub: #444;
+  --color-bg-main: #e0dfdc; /* dbdad6 #eeeeec #e3e1da */
   --color-bg-sub: #f3f3f3;
-  --color-bg-code: #fafafa;
   --color-border-dark: #ccc;
   --color-border: #ddd;
   --color-border-light: #f3f3f3;
   --color-current: #eee;
   --border-radius: 4px;
+  --border-radius-main: 15px;
+
+  --color-bg-code: #282c34;
+  --color-bg-filename: #3c4551;
+  --color-code: #adbac7;
+  --color-filename: #ffffff;
+  --border-radius-code: 10px;
 }
 
 * {
