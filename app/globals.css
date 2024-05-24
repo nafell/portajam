@@ -15,9 +15,12 @@
 
   --color-bg-code: #282c34;
   --color-bg-filename: #3c4551;
+  --color-bg-code-single: #4c4f55;
   --color-code: #adbac7;
-  --color-filename: #ffffff;
+  --color-code-single: #eee;
+  --color-filename: #fff;
   --border-radius-code: 10px;
+  --border-radius-code-single: 6px;
 }
 
 * {
@@ -39,8 +42,15 @@ body {
   line-height: 1.8;
 }
 
+/* Single line code */
 code {
-  /* font-family: menlo, inconsolata, monospace; */
+  background-color: var(--color-bg-code-single);
+  color: var(--color-code-single);
+  overflow-x: auto;
+  padding: 3px 10px;
+  font-family: var(--code-font);
+  font-size: 1rem;
+  border-radius: var(--border-radius-code-single);
 }
 
 a {
