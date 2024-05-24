@@ -2,7 +2,11 @@ import { format } from 'date-fns';
 import { utcToZonedTime } from 'date-fns-tz';
 import cheerio from 'cheerio';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/hybrid.css';
+import 'highlight.js/styles/github-dark-dimmed.css';
+//atom-one-dark-reasonable
+//github-dark-dimmed
+//vs2015
+//pariso-dark ubuntu-like
 
 export const formatDate = (date: string) => {
   const utcDate = new Date(date);
