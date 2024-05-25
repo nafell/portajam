@@ -7,7 +7,7 @@
   --color-bg-main: #e0dfdc; /* dbdad6 #eeeeec #e3e1da */
   --color-bg-sub: #f3f3f3;
   --color-border-dark: #ccc;
-  --color-border: #ddd;
+  --color-border: #aaa;
   --color-border-light: #f3f3f3;
   --color-current: #eee;
   --border-radius: 4px;
@@ -61,4 +61,9 @@ a {
 ol,
 ul {
   list-style: none;
+}
+
+hr {
+  background-color: var(--color-bg-code-single);
+  color: var(--color-bg-code-single);
 }
