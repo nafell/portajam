@@ -6,7 +6,7 @@
 }
 
 .title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -199,7 +199,7 @@
 
 @media (max-width: 640px) {
   .title {
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
     text-align: center;
   }

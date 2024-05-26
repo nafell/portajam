@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg width="100%" height="100%" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,-690,0)">
         <g id="icon" transform="matrix(0.25,0,0,1,517.5,0)">
             <rect x="690" y="0" width="640" height="160" style="fill:none;"/>
@@ -9,17 +9,12 @@
             </clipPath>
             <g clip-path="url(#_clip1)">
                 <g transform="matrix(1.11111,0,0,0.277778,672.222,-4.44444)">
-                    <path d="M304,592C430.2,592 500.356,592 546.178,546.178C592,500.356 592,430.2 592,304C592,177.8 592,107.644 546.178,61.822C500.356,16 430.2,16 304,16C177.8,16 107.644,16 61.822,61.822C16,107.644 16,177.8 16,304C16,430.2 16,500.356 61.822,546.178C107.644,592 177.8,592 304,592Z" style="fill:rgb(144,149,197);fill-rule:nonzero;"/>
+                    <path d="M304,592C430.2,592 500.356,592 546.178,546.178C592,500.356 592,430.2 592,304C592,177.8 592,107.644 546.178,61.822C500.356,16 430.2,16 304,16C177.8,16 107.644,16 61.822,61.822C16,107.644 16,177.8 16,304C16,430.2 16,500.356 61.822,546.178C107.644,592 177.8,592 304,592Z" style="fill:rgb(133,136,172);fill-rule:nonzero;"/>
                 </g>
-                <g transform="matrix(37.5036,0,0,9.37591,-8985.24,-3012.9)">
-                    <g transform="matrix(0.106656,-0,-0,0.106656,257.982,321.345)">
-                        <use xlink:href="#_Image2" x="55.414" y="56.677" width="57.025px" height="48.29px" transform="matrix(0.983182,0,0,0.985502,0,0)"/>
-                    </g>
+                <g transform="matrix(55.0591,0,0,13.7648,-13669.6,-4460.69)">
+                    <text x="263.47px" y="332.453px" style="font-family:'JavaneseText', 'Javanese Text';font-size:12px;fill:rgb(204,192,255);stroke:rgb(204,192,255);stroke-width:0.35px;">n</text>
                 </g>
             </g>
         </g>
     </g>
-    <defs>
-        <image id="_Image2" width="58px" height="49px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAxCAYAAACLfLrrAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADC0lEQVRoge2a3WvTUBiHfyc5SezXurXuC4pfyDYEnQzBm+G8Em/9z0T0PxDBe0FB70REJtULcW6om2A3p3Pd+rGsyUler2S1i8tpe7qWLM9lSHLOk/c9nzns7oNXOE4ynNHFNMeQwZDiDGmDIc01JDkDEdDwCQ2PUBeEH7aH77aPdduDILBuymWLjxdJhcBaXaBk+4GVYQAVkjquDnOcS3NobVbZ8QkfdgSKZRd1QR0J82t5o5PnAitTsv1D18+ndJofNZGztI7fbWoMczkDsyMGXv9yqFh2QWgvwrzj0iWYHea0MG51l3NN6AyYHzNx2tLwYrNBXhvp3BNRBtD8qIm5nJpsaWUmy+ET4fmmI/0M90JaqMbazBEAtyYszGQPf0PbI3ypCnyre6i4hKogcAbkLQ05U8PZlI4zKV2qjEvDBkq2Tx8rQqp6/P5K/cgbb09aND0kH/jpDKdWSdsjvPzpYLkq4AekW1V4WKt7KJZdTGV0WhizkOTh9b8xbuJzTZDjh8ei8x4igITOaGHc/Ofaak3g4aqNpYpgQZKtrFQ99mjNRsMPHwwsjeFyVq55KBW9OWYioR+4fK0KPCk1sOe1NyTUPWKLW67UvVdGDDAg9KsoE72Q1jHVlOLrex6ebjTgt9/EAQDvdlzsOIeHq1aGDIYRM1xDmehE4qATET7wbKPR1WzGJ7D1PU/q3kLiGEWbKW47qHY4g2lm15WbtE0mwntq5aJ1QXi7Lde+wth1w1MXANISPbRy0aVdAbfLCfhfZCNq6X0Q/VQRyt4lJJcblsQcQ6no1r6P307wCqaXcHbMEV2tqYumapSKbjbkOo9+oFZ0/wSI2h6hpmDs7BXKRMsDnLaA4ogOMspEJScxfUOZqCOxfuwnsWi7nJjUHex49mg9OojEolEjFo0asWjUiEWjRiwaNWLRqBGLRo1YNGrw63njyM2BvOSJr0JSh8b+s9FAwJttN3BzeybDKWsG73snJX4HAoChAWEejF687/kuCAG4txx8zOdO4RTJni3qhhOTurFo1PgD01QW/G3Cgc0AAAAASUVORK5CYII="/>
-    </defs>
 </svg>
